@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-final-style.css">
+    <title>Dashboard Akademik Mahasiswa</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <aside class="sidenav">
+        <div class="sidenav__logo">
+          <img src="images/logo-sidenav.png" alt="Logo navigasi" class="logo">
+        </div>
+        <ul class="sidenav__list">
+          <li class="sidenav__list-item active">Dashboard</li>
+          <li class="sidenav__list-item">Profile</li>
+          <li class="sidenav__list-item">View Schedule</li>
+          <li class="sidenav__list-item">View Grade</li>
+          <li class="sidenav__list-item">Teacher Evaluation</li>
+          <li class="sidenav__list-item">Settings</li>
+          <li class="sidenav__list-item">Logout</li>
+        </ul>
+      </aside>
+
+      <header class="header">
+        <input type="text" class="header__search" placeholder="Search.." />
+        <div class="header-avatar">
+          <img src="images/foto-profil.jpg" alt="Foto Profile" class="avatar-image">
+          <span class="tooltip-text">Ini adalah foto profil saya</span>
+      </div>
+        <div class="header-info">
+          <h3>Kapal, David</h3>
+          <p>Sophomore</p>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main-header">
+          <div class="main-header__heading">Dashboard</div>
+          <div class="main-header__updates">Informasi Mahasiswa:</div>
+        </div>
+        <div class="main-overview">
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Total SKS</div>
+            <div class="overviewcard__info">20 SKS</div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">IPK</div>
+            <div class="overviewcard__info">(-)</div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">Mata Kuliah</div>
+            <div class="overviewcard__info">6 Mata Kuliah</div>
+          </div>
+          <div class="overviewcard_tagihan">
+            <div class="overviewcard__icon tooltip-container">
+                Tagihan
+            <div class="tooltip">Mohon untuk segera membayar di Business Office, untuk mengikuti ujian.</div>
+            </div>
+            <div class="overviewcard__info_tagihan">Rp 1.020.391</div>
+          </div>
+        </div>
+        <div class="main-cards">
+          <div class="card">
+            <h2>Pengumuman Akademik</h2>
+            <hr class="divider">
+            <div class="announcement-container">
+              <div class="announcement">
+                <img src="images/foto1.jpg" alt="Pengumuman 1" class="announcement-image">
+                <p><a href="berita1.html" class="announcement-link">Teacher Evaluation sudah dibuka!</a>Diingatkan untuk jangan lupa untuk mengisi kuisioner, agar dapat melihat evaluasi nilai akhir anda!
+                <br>4 - 19 November 2024</p>
+              </div>
+              <hr class="announcement-divider">
+              <div class="announcement">
+                <img src="images/foto2.jpg" alt="Pengumuman 2" class="announcement-image">
+                <p><a href="berita2.html" class="announcement-link">NO CHAPEL!</a>HALO FILKOMERS! Memasuki minggu chapel, 
+                pada tanggal 14 November 2024, kegiatan kuliah umum(Chapel) di tiadakan.</p>
+              </div>
+              <hr class="announcement-divider">
+              <div class="announcement">
+                <img src="images/foto3.jpg" alt="Pengumuman 3" class="announcement-image">
+                <p><a href="berita3.html" class="announcement-link">New Counselor!</a>Hi Unklabers! kampus kita memiliki konselor baru.
+                Layanan konseling ini tersedia undtuk membantu mengatasi berbagai masalah pribadi, akademik atau emosional yang mungkin di hadapi selama menjalani kehidupan kampus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Jadwal Ujian</h2>
+            <hr class="divider">
+            <div class="exam-list">
+              <div class="exam-day">
+                <h3>Senin, 18 November 2023</h3>
+                <div class="exam-item">
+                  <strong>Jam:</strong> 10:00 - 11:30 <br>
+                  <strong>Mata Kuliah:</strong> Intermediate English 1 <br>
+                  <strong>Dosen:</strong> Stephanie Tauran <br>
+                  <strong>Ruangan:</strong> UIC - GK3
+                </div>
+                <hr class="exam-divider">
+              </div>
+              <div class="exam-day">
+                <h3>Selasa, 16 Mei 2023</h3>
+                <div class="exam-item">
+                  <strong>Jam:</strong> 16:00 - 17:30 <br>
+                  <strong>Mata Kuliah:</strong> System Analysis and Design <br>
+                  <strong>Dosen:</strong> George Tangka <br>
+                  <strong>Ruangan:</strong> 303 - GK1
+                </div>
+                <hr class="exam-divider">
+              </div>
+              <div class="exam-day">
+                <h3>Rabu, 17 Mei 2023</h3>
+                <div class="exam-item">
+                  <strong>Jam:</strong> 07:10 - 08:30 <br>
+                  <strong>Mata Kuliah:</strong> Web Design <br>
+                  <strong>Dosen:</strong> Reymon Rontikan <br>
+                  <strong>Ruangan:</strong> Computer Lab 2 - GK2
+                </div>
+                <hr class="exam-divider">
+              </div>
+              <div class="exam-day">
+                <h3>Kamis, 18 Mei 2023</h3>
+                <div class="exam-item">
+                  <strong>Jam:</strong> 08:40 - 10:00 <br>
+                  <strong>Mata Kuliah:</strong> Statistics and Probability <br>
+                  <strong>Dosen:</strong> Raissa Camilla <br>
+                  <strong>Ruangan:</strong> 205 - GK3
+                </div>
+                <hr class="exam-divider">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Riwayat Pembayaran</h2>
+            <hr class="divider">
+            <div class="payment-history" style="max-height: 200px; overflow-y: auto;">
+              <div class="payment-item">
+                <strong>Tanggal:</strong> 01 Januari 2023 <br>
+                <strong>Jumlah:</strong> Rp 4.000.000 <br>
+                <strong>Status:</strong> Berhasil
+              </div>
+              <hr class="payment-divider">
+              <div class="payment-item">
+                <strong>Tanggal:</strong> 01 Februari 2023 <br>
+                <strong>Jumlah:</strong> Rp 3.000.000 <br>
+                <strong>Status:</strong> Berhasil
+              </div>
+              <hr class="payment-divider">
+              <div class="payment-item">
+                <strong>Tanggal:</strong> 01 Maret 2023 <br>
+                <strong>Jumlah:</strong> Rp 2.000.000 <br>
+                <strong>Status:</strong> Berhasil
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+#layout {
+    display: grid;
+    grid-template-rows: [header-start]100px [content-start]400px [footer-start]100px;
+    grid-template-columns: [ads]200px [main]500px [links]200px;
+    grid-area: 
+        "header header header"
+        "ads    main    links"
+        "footer footer footer";
+}
+
+#layout {
+    grid: [header-start] "header header header" 100px
+    [content-start] "ads main links" 400px
+    [footer-start] "footer footer footer" 100px
+    [ads] 200px [main] 1fr [links] 200px;
+
+}
+#One {
+    background-color: aqua;
+    grid-area: header
+
+    
+}
+
+#Two {
+    background-color: bisque;
+}
+
+#Three {
+    background-color: lightpink;
+}
+
+#Four {
+    background-color: lightsteelblue;
+}
+
+#Five {
+    background-color: red;
+}
